@@ -1,0 +1,23 @@
+@import '../style.scss';
+
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list__item{
+    background-color: $items-color;
+    box-shadow: $shadow;
+    color: $header-color;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    text-align: center;
+    border-radius: $angle-radius;
+}
+
+.list__img{
+    width: 150px;
+}

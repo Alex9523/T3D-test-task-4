@@ -1,0 +1,29 @@
+@import './style.scss';
+
+body{
+    background-color: $main-color;
+}
+
+.buttons{
+    text-align: center;
+    padding: 50px;
+}
+
+.buttons__btn{
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 0 16px ;
+    border-style: none;
+    outline: none;
+    box-shadow: $shadow;
+    font-size: medium;
+}
+
+.buttons__btn:hover{
+    border-radius: $angle-radius
+}
+
+.buttons__information{
+    font-size: large;
+}
